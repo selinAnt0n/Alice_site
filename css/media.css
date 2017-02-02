@@ -1,0 +1,170 @@
+@media screen and (max-width: 1000px) {
+	header nav {
+		margin-right: 0;
+	}
+	.myphoto-box1 {
+		width: 18%;
+	}
+	.myphoto-box2 {
+		width: 28%;
+		background-position: -84px;
+	}
+	.myphoto-box3 {
+		width: 48%;
+
+	}
+	.myphoto-box4 {
+		width: 33%;
+
+	}
+	.myphoto-box5 {
+		width: 63%;
+	}
+}
+@media screen and (max-width: 850px) { 
+	* {
+		transition :all .6s;
+	}
+	header nav {
+		margin: 0 auto;
+		float: inherit;
+		width: 90%;
+		margin-bottom: 10px;
+	}
+	.logo {
+		width:100%;
+		display: block;
+		overflow: hidden;
+		float: inherit;
+	}
+	.logo img {
+		width: 250px;
+		height: 250px;
+		display :block;
+		margin:0 auto;
+		float: inherit;
+	}
+	.whyme-box {
+		width: 50%;
+		padding-top: 30px;
+	}
+	.whyme-box strong {
+		margin-bottom: 15px;
+	}
+	.video-box {
+		display: none;
+	}
+	.sell-content {
+		width: 95%;
+		margin:0 auto;
+		margin: 20px auto;
+		border-left:5px solid #e06885;
+	}
+	.item-box {
+		width: 30%;
+		height: 225px;
+	}
+	.form-box label {
+		font-size: 18px;
+		line-height: 20px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.svg-wrapper,
+	.svg-wrapper svg,
+	.svg-wrapper svg #shape
+	{
+		width: 130px;
+		height: 40px;
+		stroke-dashoffset: -190;
+	}
+}
+@media screen and (max-width: 630px) { 
+	.svg-wrapper,
+	.svg-wrapper svg,
+	.svg-wrapper svg #shape
+	{
+		width: 100px;
+		height: 40px;
+		stroke-dashoffset: -142;
+	}
+	.form-box {
+		width: 40%;
+	}
+	#text a {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	#top {
+		display: none !important;
+	}
+	.media_one {
+		display: none;
+	}
+	.media_two {
+		display: block;
+	}
+	.cd-modal .modal-content {
+		padding:3em 5%; 
+	}
+}
+@media screen and (max-width: 500px) { 
+	.svg-wrapper svg,
+	.svg-wrapper svg #shape
+	{
+		display: none;
+	}
+	.first-info {
+		display: none;
+	}
+	.sell-content {
+		border:none;
+		width: 100%;
+	}
+	.svg-wrapper {
+		width: 100%;
+	}
+	#text {
+		margin-top: 10px;
+		border-bottom :2px solid #fec2d1;
+	}
+	#text a {
+		font-size: 22px;
+		line-height: 24px;	
+	}
+	#text a:hover {
+		color:#e06885;
+	}
+	header nav {
+		width: 100%;	
+	}
+	header {
+		border-bottom:none;	
+	}
+	.whyme-box {
+		width: 100%;
+	}
+	.item-box {
+		width: 45%;
+	}
+	.info_about {
+		margin: 0 auto;
+		width: 90% 
+	}
+	.form-box {
+		width: 90%;
+	}
+
+	.jq-selectbox {
+		width: 80%;
+	}
+	.jq-selectbox ul,
+	.jq-selectbox__select-text {
+		width: 250px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.item-box {
+		width: 95%;
+	}	
+}

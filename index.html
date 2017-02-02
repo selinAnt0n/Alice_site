@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<title>PlumsHomebakery</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/global.css">
+	<link media="screen and (max-width: 1000px)" rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/jquery.ui.timepicker.css">
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/responsiveslides.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('a[href^="#"]').click(function(){
+				var target = $(this).attr('href');
+				$('html, body').animate({scrollTop: $(target).offset().top}, 800);
+				return false; 
+			}); 
+		});
+	</script>
+	<script type="text/javascript">
+	  var top_show = 500;
+	  var delay = 1000;
+	  $(document).ready(function() {
+	    $(window).scroll(function () {
+	      if ($(this).scrollTop() > top_show) $('#top').fadeIn();
+	      else $('#top').fadeOut();
+	    });
+	    $('#top').click(function () {
+	      $('body, html').animate({
+	        scrollTop: 0
+	      }, delay);
+	    });
+	  });
+	</script>
+</head>
+<body>
+	<div class="wrap">
+		<div id="top">Наверх</div>
+		<header class="hi">
+			<a href="" class="logo"><img src="img/logo2.jpg" alt="">
+			</a>
+			<nav>
+				<div class="svg-wrapper">
+			      <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+			        <rect id="shape" height="40" width="150" />
+			        <div id="text">
+			          <a href="#aboutas"><span class="spot"></span>О нас</a>
+			        </div>
+			      </svg>
+			    </div>
+			    <div class="svg-wrapper">
+			      <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+			        <rect id="shape" height="40" width="150" />
+			        <div id="text">
+			          <a href="#whywe"><span class="spot"></span>Почему мы</a>
+			        </div>
+			      </svg>
+			    </div>
+			    <div class="svg-wrapper">
+			      <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+			        <rect id="shape" height="40" width="150" />
+			        <div id="text">
+			          <a href="#sell"><span class="spot"></span>Наш ассортимент</a>
+			        </div>
+			      </svg>
+			    </div>
+			    <div class="svg-wrapper">
+			      <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+			        <rect id="shape" height="40" width="150" />
+			        <div id="text">
+			          <a href="#order"><span class="spot"></span>Заказ</a>
+			        </div>
+			      </svg>
+			    </div>
+			</nav>
+		</header>
+		<div class="content">	
+			<div class="first-info">
+				<div class="myphoto-box1">
+					<div class="inside-box">
+						<span>Оригинальные свадебные торты</span>
+					</div>
+				</div>
+				<div class="myphoto-box2">
+					<div class="inside-box">
+						<span>Еще больше свадебных тортов :)</span>
+					</div>
+				</div>
+				<div class="myphoto-box3">
+					<div class="inside-box">
+						<span>Детские торты</span>
+					</div>
+				</div>
+				<div class="myphoto-box4">
+					<div class="inside-box">
+						<span>Торты для самых маленьких</span>
+					</div>
+				</div>
+				<div class="myphoto-box5">
+					<div class="inside-box">
+						<span>Воплощение ваших фантазий в оформлении</span>
+					</div>
+				</div>
+			</div>
+			<div class="line-box">
+				<span class="icon-box1"></span>
+			</div>
+			<div class="aboutas">
+				<a href="" id="aboutas"></a>
+				<h2>О нас</h2>
+				<div class="info_about">
+					<p>Для праздника обязательным атрибутом являются сладости! Это может быть торт либо целый candybar!
+Наша домашняя кондитерская ставит своей целью сделать торт красивым снаружи и вкусным внутри. Используя самые свежие, качественные и натуральные продукты.В чем наше преимущество перед магазинными тортами? А в том, что наши сладости делаются не на конвейере, а вручную. Подход к каждому клиенту индивидуален и мы вкладываем в него часть своей души, капельку улыбки и столовую ложечку хорошего настроения! Наш ассортимент постоянно обновляется. Так же, мы идём в ногу со временем!
+Как свободный художник, делаю мир ярче, вкуснее и ароматнее!</p>
+				<p class="int-info">Еще больше сладких пряностей и того что любит каждый из нас :) Подписывайтесь :)<a href="https://www.instagram.com/plums_homebakery/" class="instag"></a></p>
+				</div>
+
+				
+			</div>
+			<div class="line-box">
+				<span class="icon-box2"></span>
+			</div>
+			<div class="whywe">
+				<a href="" id="whywe"></a>
+				<div class="shine">
+					<div class="whyme-box">
+						<strong>1</strong>
+						<div class="imgbox1"></div>
+						<h6>Только натуральные ингридиенты</h6>
+						<p>Мы используем только натуральные ингридиенты , никаких растительных жиров и пальмовых масел.</p>
+					</div>
+					<div class="whyme-box">
+						<strong>2</strong>
+						<div class="imgbox2"></div>
+						<h6>Индивидуальный подход</h6>
+						<p>К каждому заказу индивидуальных подход .К вниманию беруться все самые мелкие и сладкие:) пожелания клиента. </p>
+					</div>
+					<div class="whyme-box">
+						<strong>3</strong>
+						<div class="imgbox3"></div>
+						<h6>Cделано с любовью</h6>
+						<p>В каждый заказ мы вкладываем частичку себя , делаем с душой. Очень приятно когда продукты труда приносят радость окружающим тебя людям .  Как свободный художник , делаю мир ярче , вкуснее  и ароматнее.</p>
+					</div>
+					<div class="whyme-box">
+						<strong>4</strong>
+						<div class="imgbox 4"></div>
+						<h6>Своевременное выполнение заказов</h6>
+						<p>Наши заказы выпоняються в срок поставленный заказчиком, и доставляються в случае необходимости. Так же если вы забыли сделать заказ на какой нибуть праздник ,то вы можете связаться с нашими контактами , и мы сможем что то придумать:)</p>
+					</div>
+				</div>
+			</div>
+			<div class="line-box">
+				<span class="icon-box3"></span>
+			</div>
+			<div class="sell">
+				<div class="video-box">
+					<video autoplay="" loop="loop" muted>
+  						<source src="2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+  						<source src="2.mp4" type='video/webm; codecs="vp8, vorbis"' />
+					</video>
+				</div>
+				<a href="" id="sell"></a>
+				<div class="sell-content">
+					<h2>Ассортимент</h2>
+					<div class="item-box">
+						<div>
+							<strong>Апельсиновый чизкейк</strong>
+							<span>200 грн/кг</span>
+						</div>
+						<p>Ароматный чизкейк с ярковыраженной апельсиновой ноткой в дуэте с кокосовой основой.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Сливочный-бисквитный торт</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Нежный ванильный бисквит, крем на основе филафельфии и сливок  (можно добавить персики и ананас)</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>С творожно-фруктовой начинкой</strong>
+							<span>170 грн/кг</span>
+						</div>
+						<p>Нежный ванильный бисквит в дуэте с творожным суфле и  персиками .Сверху покрыт сливочным кремом на основе филадельфии</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Классический</strong>
+							<span>140 грн/кг</span>
+						</div>
+						<p>Хорошо пропитанный медовик,на тонких коржах, крем сметанный.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Неклассически медовик</strong>
+							<span>170 грн/кг</span>
+						</div>
+						<p>Хорошо пропитанный медовик,на тонких медовых коржах, крем  сливочный на основе филадельфии.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong> Рафаэлло</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Что может быть нежнее сочетания бисквит+сливочный кокосовый крем?! Шелковым кремом из сливочного сыра и белого шоколада с нотками Амаретто. Для тех, кто любит кокос и Рафаэлло, это будет один из любимых десертов. </p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>С творожно-ягодной начинкой </strong>
+							<span>170 грн/кг</span>
+						</div>
+						<p>Нежный ванильный бисквит в дуэте с творожным суфле и  ягодами .Сверху покрыт сливочным кремом на основе филадельфии.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Шоколадоголик</strong>
+							<span>200 грн/кг</span>
+						</div>
+						<p>Сочный шоколадный бисквит, абрикосовый конфитюр,шоколадный крем Ганаш на основе черного шоколада.Покрыт шоколадом.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Черный принц</strong>
+							<span>150 грн/кг</span>
+						</div>
+						<p>Шоколадный бисквит, сливочный крем с ириской. абрикосовый конфитюр, покрыт шоколадом.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Морковный торт он же Carrot Cake</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Пряные,влажные коржи, в состав которых входит орешки (кешью,миндаль), цедра апельсина и морковь - эти ингридиенты делают коржи насыщенными! Нежный крем на основе сливочного сыра.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Колибри</strong>
+							<span>200 грн/кг</span>
+						</div>
+						<p>Экзотический торт  ,родом с Ямайки, не оставит вас равнодушным! Это американское легендарное лакомство с воздушным бисквитом и сливочным кремом. В составе коржей ананас,банан и корица.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Красный бархат или он же Red Velvet</strong>
+							<span>190 грн/кг</span>
+						</div>
+						<p>Думаю вы не раз о нем слышали..но мало кто пробовал!Откусывая кусочек, вы ждёте чего угодно, но не шоколадного послевкусия)Пористые коржи, которые буквально таят во рту в дуэте с сливочным кремом.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Шоколадный торт "Сникерс</strong>
+							<span>165 грн/кг</span>
+						</div>
+						<p>Ароматный чизкейк с ярковыраженной апельсиновой ноткой в дуэте с кокосовой основой.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Ореховый торт</strong>
+							<span>220 грн/кг</span>
+						</div>
+						<p>Воздушный ореховый торт с ванильным сливочным кремом,  абрикосовым джемом и белым шоколадом.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Черный лес</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Шоколадные коржи, вишня настоенная на роме, сливочный крем.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Черничные ночи</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Шоколадный бисквит, черничное суфле, нежный крем на основе сливочного сыра.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Малиновый трюфель</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Очень вкусный насыщенный малиново-шоколадный торт!  Шоколадный бисквит, шоколадный ганаш,и вкусная прослойка из малинового мармелада.</p>
+					</div>
+					<div class="item-box">
+						<div>
+							<strong>Черный лес абсолют</strong>
+							<span>180 грн/кг</span>
+						</div>
+						<p>Шоколадные коржи, вишня настоенная на роме, сливочный шоколадный крем.</p>
+					</div>
+				</div>
+			</div>
+			<div class="line-box">
+				<span class="icon-box5"></span>
+			</div>
+			<div class="order">
+				<a href="" id="order"></a>
+				<a href="#0" class="cd-btn cd-modal-trigger button-sell">Заказать</a>
+				<p class="rul-info-button">Пожалуйста перед оформлением заказа ознакомтесь с правилами.</p>
+				<input type="checkbox" id="button-info" />
+				<label for="button-info" class="ruls-button"><i class="demo-icon icon-ok"></i></label>
+				<div class="ruls">
+					<p>Вес рассчитывается исходя от количества гостей. На одного человека 130-150 грамм.</p>
+
+					<p class="font-bold">1) Транспортировка.
+
+<p>Мы упаковываем торты в специальные картонные коробки. При правильной транспортировке такая упаковка способна защитить торт, сохранив всю его привлекательность и избежать повреждений декора. Все же, для того чтобы торт к моменту его подачи был в таком же виде, в котором Вы его забрали, соблюдайте, пожалуйста, следующие правила:</p>
+
+	<p>1. Пожалуйста, осматривайте торт, когда забираете. Если есть какие-либо претензии, озвучивайте их сразу. После перевозки претензии по внешнему виду 	не принимаются.</p>
+
+	<p>2. Коробку с тортом необходимо размещать на ровной поверхности в автомобиле, вдали от прямых солнечных лучей. В летнее время нужно включать 		кондиционер в автомобиле и ни в коем случае не возить долго торт или оставлять на хранение в автомобиле. В зимнее время, перевозить торт вдали от 		печки 	и не ставить на сиденье с подогревом.</p>
+
+	<p>3. Желательно взять с собой “помощника”, который сможет поддерживать торт во время транспортировки.</p>
+
+	<p>4. Во время перевозки торта автомобиль должен передвигаться с небольшой скоростью, без резких поворотов и торможения, что бы торт не упал и не перевернулся.</p>
+
+	<p>5. При переносе торта, необходимо держать коробку (торт) за дно, что бы торт не выпал!</p>
+
+<p class="font-bold">Хранение.</p>
+
+	<p>1) До подачи хранить торт нужно в холодильнике! Пожалуйста, отнеситесь к данному моменту очень серьезно! В жарком и влажном помещении торт 		может раскиснуть, испортиться и потерять первоначальный вид и вкус!</p>
+
+	<p>2)Так как при изготовлении тортов используются только свежие натуральные продукты, не содержащие консервантов, срок хранения домашних тортов (в 	холодильнике!) составляет не больше чем 3 дня. Поэтому, настоятельно рекомендуем, не употреблять в пищу торт, который хранится в холодильнике 		более трех суток, тем более не давать его детям.</p>
+
+<p class="font-bold">Потребление.</p>
+
+	<p>1. Подавать торт можно сразу из холодильника, или предварительно дать ему постоять при комнатной температуре 30-40 минут. Это зависит от Ваших предпочтений.</p>
+
+	<p>2. Перед употреблением необходимо снять объемный декор (цветы, фигурки), также извлечь все несъедобные детали, если они есть. (В некоторых случаях 	фигурки насаживаются на зубочистки, а цветы собираются на флористическую проволоку, могут содержать несъедобные тычинки).</p>
+
+	<p>3. Многоярусный торт всегда имеет особую конструкцию: каждый ярус находится на специальной подложке, которая опирается на предыдущий ярус, 		укрепленный деревянными палочками и/или коктейльными трубочками. Шпажки, трубочки и специальные подложки между ярусами при нарезании торта 		также 	необходимо извлечь.
+	Каждый ярус торта нарезается отдельно!
+	Почему домашние торты по размеру маленькие, а магазинные большие, хотя вес у них одинаковый?
+	Да, домашние торты тяжелые. По сравнению с магазинными примерно в два раза тяжелее. Потому что они не содержат никаких порошковых заменителей(разведя которые водой можно получить тесто или крем), усилителей, стабилизаторов.</p>
+
+<p>Мы используем только натуральные продукты: натуральные сливки ( а не растительные), масло не менее 73% ( а не маргарин или спред), свежие яйца ( а не яичный порошок), и т.д.
+В наших тортах нет никаких смесей и прочей химии, именно поэтому они весят больше, чем торты из магазина аналогичного размера.</p>
+				</div>
+				<div class="cd-modal">
+					<div class="modal-content">
+						<h5>Форма заказа</h5>
+						<form action="" method="post" id="first_form">
+							<div class="info-box">
+								<div class="form-box">
+									<input type="text" id="name" name="name">
+									<label for="">Имя и Фамилия</label>
+								</div>
+								<div class="form-box">
+									<input type="email" id="email" name="email">
+									<label for="">Email</label>
+								</div>
+								<div class="form-box">
+									<input type="text" id="phone" name="phone">
+									<label for="">Телефон</label>
+								</div>
+								<div class="form-box">							
+									<input id="datepicker" type="text" name="date"/>
+									<label for="">Дата</label>
+								</div>
+								<div class="form-box">
+									<input type="text" id="tier" name="tier">
+									<label for="">Количество ярусов</label>
+								</div>
+								<div class="form-box textarea-box">
+									<textarea name="coment" id="comment"></textarea>
+									<label for="" class="media_one">Коментарии (оформление,есть ли на что-то аллергия...)</label>
+									<label for="" class="media_two">Коментарии</label>
+								</div>
+								<div class="adres-holder-two form-box">
+									<input type="text" name="adrmetr" id="adr-metr" >
+									<label for="">Домашний адрес</label>
+								</div>
+								<div class="adres-holder form-box">
+									<input type="text" name="adrhome" id="adr-home" >
+									<label for="">Введите метро</label>
+								</div>
+							</div>
+							<div class="calculation">
+								<div class="form-box select-box">
+									<select id="meSelect" class="width-200" name="multiple">
+										<option value="200">Апельсиновый чизкейк</option>
+										<option value="180">Сливочно-бисквитный торт</option>
+										<option value="170">С творожно-фруктовой начинкой</option>
+										<option value="140">Классический медовик</option>
+										<option value="170">Неклассический медовик</option>
+										<option value="180">Рафаэлло</option>
+										<option value="170">С творожно-ягодной начинкой</option>
+										<option value="200">Шоколадоголик</option>
+										<option value="150">Черный принц</option>
+										<option value="180">Морковный торт он же Carrot Cake</option>
+										<option value="200">Колибри</option>
+										<option value="190">Красный бархат или он же Red Velvet</option>
+										<option value="165">Шоколадный торт "Сникерс "</option>
+										<option value="220">Ореховый торт</option>
+										<option value="180">Черный лес</option>
+										<option value="180">Черничные ночи</option>
+										<option value="180">Малиновый трюфель</option>
+										<option value="180">Черный лес абсолют</option>
+									</select>
+									<label for="">Ваш Выбор:)</label>
+								</div>
+								<div class="form-box select-box custom-select">
+									<select  id="selet-weight" class="width-200">
+										<option value="2">2 кг</option>
+										<option value="3">3 кг</option>
+										<option value="4">4 кг</option>
+										<option value="5">5 кг</option>
+										<option value="6">6 кг</option>
+										<option value="7">7 кг</option>
+										<option value="8">8 кг</option>
+										<option value="9">9 кг</option>
+										<option value="10">10 кг</option>
+										<option value="11">11 кг</option>
+										<option value="12">12 кг</option>
+										<option value="13">13 кг</option>
+									</select>
+									<label for="">Вес ( 1-13 кг)</label>
+								</div>
+								<div class="form-box check-form">
+									<input type="checkbox" id="check1" value="30" name="check">
+									<label for="check1">Макаронс(4-5 шт) 30гр</label>
+									<i class="demo-icon icon-ok"></i>
+								</div>
+								<div class="form-box check-form">
+									<input type="checkbox" id="check2" value="50" name="check">
+									<label for="check2">Пряники(2 шт) 50гр</label>
+									<i class="demo-icon icon-ok"></i>
+								</div>
+								<div class="form-box check-form">
+									<input type="checkbox" id="check3" value="30" name="check">
+									<label for="check3">Фрукты 30гр</label>
+									<i class="demo-icon icon-ok"></i>
+								</div>
+								<div class="form-box check-form">
+									<input type="radio" id="check4" value="30" name="check"  >
+									<label for="check4">Доставка(К метро)</label>
+									<i class="demo-icon icon-ok"></i>
+								</div>
+								<div class="form-box check-form">
+									<input type="radio" id="check5" value="70" name="check">
+									<label for="check5">Доставка(Адресная)</label>
+									<i class="demo-icon icon-ok"></i>
+									
+								</div>
+							<span id="results"></span>
+							<div class="submit-holder">
+								<input type="submit" value="Отправить" id="submit"  />
+								<span></span>
+							</div>	
+							</div>
+						</form>
+					</div>
+					<a href="#0" class="modal-close close-mod">Close</a>
+				</div>
+				<div class="cd-transition-layer"> 
+					<div class="bg-layer"></div>
+				</div>
+			</div>
+			<div class="line-box">
+				<span class="icon-box4"></span>
+			</div>
+			<div class="masssend">Ваше сообщение отправлено</div>
+		</div>
+	</div>
+	<script>
+		$( "#datepicker" ).datepicker({
+			monthNames: ['Январь', 'Февраль', 'Март', 'Апрель',
+			'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь',
+			'Октябрь', 'Ноябрь', 'Декабрь'],
+			 dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
+			 firstDay: 1,
+			 minDate: +5,
+		});
+	</script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/validate-rules.js"></script>
+	<script>
+		(function($) {
+		$(function() {
+			$('select').styler({
+				selectSearch: true
+			});
+		});
+		})(jQuery);
+	</script>
+	<script src="js/calc.js"></script>
+	<script src="js/adresform.js"></script>
+	<script src="js/jquery.formstyler.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.timepicker.js"></script>
+</body>
+</html>
